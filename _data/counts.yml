@@ -1,0 +1,15 @@
+# selected platform statistics
+# for icons see: https://linearicons.com/free
+
+- icon: lnr-file-empty
+  number: 3425354646
+  label: assets delivered
+- icon: lnr-users
+  number: 57804567
+  label: users managed
+- icon: lnr-database
+  number: 49203456
+  label: contents stored
+- icon: lnr-chart-bars
+  number: 1760456
+  label: marketing campaigns
