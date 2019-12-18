@@ -1,8 +1,8 @@
-title: "MediaStore - Studio-grade cloud solution to streamline content sales and distribution"
+title: "MediaStore - Studio-grade cloud solutions to streamline content sales and distribution"
 description: >- # this means to ignore newlines until "baseurl:"
  Manage, market, license and deliver your audiovisual content using a user-friendly web interface accessible anywhere, anytime. Reduce back office workload and transaction costs from screening to delivery. Increase transparency and knowledge about your clients and business activities. Pick the modules you need and you will have your custom solution in no time.
 company: mediapeers GmbH
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /pages
 url: "https://mediapeers.pro" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 logo_white_bg: "/assets/img/logos/logo.png"
 logo_transparent_bg: "/assets/img/logos/logo_transparent.png"
@@ -50,7 +50,7 @@ pagination:
 
   # The permalink structure for the paginated pages (this can be any level deep)
   #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  permalink: '/pages/blog/:num/' # Pages are simple html file
+  permalink: '/pages/projects/:num/' # Pages are simple html file
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
