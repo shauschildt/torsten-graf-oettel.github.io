@@ -1,0 +1,18 @@
+- name: NBCUniversal
+  logo: /assets/img/clients/NBCUniversal.png
+- name: MGM
+  logo: /assets/img/clients/MGM.png
+- name: Fremantle
+  logo: /assets/img/clients/Fremantle.png
+# - name: Entertainment ONE
+#   logo: /assets/img/clients/eOne.png
+- name: France Television Distribution
+  logo: /assets/img/clients/FranceTV.png
+- name: Lionsgate
+  logo: /assets/img/clients/Lionsgate.png
+- name: TF1
+  logo: /assets/img/clients/Tf1.png
+# - name: Red Arrow International
+#   logo: /assets/img/clients/RedArrow.png
+- name: Dynamic Television
+  logo: /assets/img/clients/DynamicTelevision.png
