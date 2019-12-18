@@ -1,0 +1,26 @@
+# hero slider slide's
+
+- image_url: /assets/img/slider/slider1.jpg
+  heading_line_1: Meet with us to
+  heading_line_2: success dream
+  heading_highlight: business
+  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
+  text_line_2: alteration in some form by injected humour randomised
+  button_label: get started
+  button_url: /pages/contact  
+- image_url: /assets/img/slider/slider2.jpg
+  heading_line_1: Meet with us to
+  heading_line_2: success dream
+  heading_highlight: business
+  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
+  text_line_2: alteration in some form by injected humour randomised
+  button_label: get started
+  button_url: /pages/contact  
+- image_url: /assets/img/slider/slider3.jpg
+  heading_line_1: Meet with us to
+  heading_line_2: success dream
+  heading_highlight: business
+  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
+  text_line_2: alteration in some form by injected humour randomised
+  button_label: get started
+  button_url: /pages/contact
