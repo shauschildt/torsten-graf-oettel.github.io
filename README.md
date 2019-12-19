@@ -1,2 +1,2 @@
 # mpx.github.io
-mediapeers public website
+public website
