@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 company: mediapeers GmbH
 baseurl: "" # the subpath of your site, e.g. /pages
 url: "https://www.mediapeers.pro" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
-logo_white_bg: "/assets/img/logos/logo.png"
-logo_transparent_bg: "/assets/img/logos/logo_transparent.png"
+logo_white_bg: "/assets/img/logos/logo_white_bg.png"
+logo_dark_bg: "/assets/img/logos/logo_dark_bg.png"
 email: "info@mediapeers.com"
 address: "Torellstr. 1, 10243 Berlin, Germany"
 phone: "+49 30 81456070"
