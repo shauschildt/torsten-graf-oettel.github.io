@@ -1,30 +1,42 @@
-- title: NBCUPassport
-  description: title information and marketing assets
-  categories: online-catalogue asset-distribution content-marketing
+- title: Fremantle
+  description: Online catalogue, video screening and content marketing
+  categories: online-catalogue video-screening content-marketing
+  website: https://www.fmscreenings.com
+  thumb: /assets/img/portfolio/fremantle_thumb.png
+  image: /assets/img/portfolio/fremantle.png
+- title: NBCUniveral Passport
+  description: Online catalogue and assets distribution
+  categories: online-catalogue asset-distribution
+  website: https://nbcupassport.com
   thumb: /assets/img/portfolio/nbcupassport_thumb.jpg
   image: /assets/img/portfolio/nbcupassport.jpg
-- title: France Television Content Sales 
-  description: title information and marketing assets
+- title: Lionsgate LGTV
+  description: Online catalogue and video screening
+  categories: online-catalogue video-screening
+  website: https://www.lgtv.lionsgate.com
+  thumb: /assets/img/portfolio/lionsgate_thumb.png
+  image: /assets/img/portfolio/lionsgate.png
+- title: eOne International Distribution
+  description: Online catalogue, video screening, and content marketing
   categories: online-catalogue video-screening content-marketing
-  thumb: /assets/img/portfolio/p2.jpg
-  image: /assets/img/portfolio/p2.jpg
-- title: Red Arrow
-  description: title information and marketing assets
-  categories: online-catalogue video-screening content-marketing
-  thumb: /assets/img/portfolio/p3.jpg
-  image: /assets/img/portfolio/p3.jpg
-- title: Dymanic Television
-  description: title information and marketing assets
-  categories: online-catalogue video-screening asset-distribution content-marketing
-  thumb: /assets/img/portfolio/p4.jpg
-  image: /assets/img/portfolio/p4.jpg
-- title: ORF
-  description: title information and marketing assets
-  categories: online-catalogue video-screening content-marketing
-  thumb: /assets/img/portfolio/p5.jpg
-  image: /assets/img/portfolio/p5.jpg
-- title: Entertainment ONE
-  description: title information and marketing assets
-  categories: online-catalogue video-screening content-marketing
-  thumb: /assets/img/portfolio/p6.jpg
-  image: /assets/img/portfolio/p6.jpg
+  website: https://www.international.eonetv.com
+  thumb: /assets/img/portfolio/entertainment-one_thumb.png
+  image: /assets/img/portfolio/entertainment-one.png
+- title: France Television Distribution
+  description: Online catalogue, video screening, content marketing and assets distribution
+  categories: online-catalogue video-screening content-marketing asset-distribution
+  website: https://sales.francetvdistribution.fr
+  thumb: /assets/img/portfolio/france-tv_thumb.png
+  image: /assets/img/portfolio/france-tv.png
+- title: Red Arrow Studios
+  description: Online catalogue, video screening, content marketing and assets distribution
+  categories: online-catalogue video-screening content-marketing asset-distribution
+  website: https://screening.redarrowstudios.com
+  thumb: /assets/img/portfolio/red-arrow_thumb.png
+  image: /assets/img/portfolio/red-arrow.png
+# - title: Dymanic Television
+#   description: Online catalogue, video screening, and assets distribution
+#   categories: online-catalogue video-screening asset-distribution
+#   website: https://www.dynamictelevision.com
+#   thumb: /assets/img/portfolio/dynamic-television_thumb.png
+#   image: /assets/img/portfolio/dynamic-television.png
