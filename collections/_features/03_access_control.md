@@ -2,7 +2,7 @@
 layout: feature
 title: Granular Access Control
 description: Users, depending on their permissions, can view selected titles and marketing assets, instantly preview, and download. 
-icon: /assets/img/icons/air-freshener-solid.svg
+icon: /assets/img/icons/user-lock-solid.svg
 image: /assets/img/features/05.jpg
 ---
 

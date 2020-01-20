@@ -2,7 +2,7 @@
 layout: feature
 title: Detailed Analytics
 description: Real-time, actionable analytics tracking to provide comprehensive insights into retentions of any marketing activity.
-icon: /assets/img/icons/ambulance-solid.svg
+icon: /assets/img/icons/chart-bar-solid.svg
 image: /assets/img/features/01.jpg
 ---
 

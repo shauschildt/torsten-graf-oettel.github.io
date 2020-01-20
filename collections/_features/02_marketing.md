@@ -2,8 +2,8 @@
 layout: feature
 title: Secure Screener Links
 description: Share screeners individually or to multiple users via secure, time or view restricted branded emails links and engage closer with your clients.
-icon: /assets/img/icons/algolia-brands.svg
-image: /assets/img/service/details/sevice-details.jpg
+icon: /assets/img/icons/lock-solid.svg
+image: /assets/img/service/details/lock-solid.jpg
 ---
 
 <div class="row">

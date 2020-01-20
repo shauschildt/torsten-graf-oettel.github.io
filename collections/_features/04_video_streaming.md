@@ -2,7 +2,7 @@
 layout: feature
 title: Secure Video Playback
 description: Online video streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
+icon: /assets/img/icons/video-solid.svg
 image: /assets/img/features/04.jpg
 ---
 

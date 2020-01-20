@@ -1625,10 +1625,10 @@ label {
 .sidebar-rc-post .rc-post-thumb {
   display: inline-block;
   float: left;
-  height: 70px;
+  max-height: 70px;
   overflow: hidden;
   position: relative;
-  width: 90px;
+  width: 40px;
 }
 .rc-post-thumb img {
 	width: 100%;
@@ -1948,4 +1948,8 @@ blockquote {
 }
 .features-icon img {
 	max-width: 60px;
+  height: 60px;
+}
+.feature-area .features-wrap p {
+  min-height: 110px;
 }

@@ -2,7 +2,7 @@
 layout: feature
 title: Portable Offline Screening 
 description: Mobile app sync of titles and videos for portable offline screening with 2nd screen extensibility via HDMI or Airplay.
-icon: /assets/img/icons/address-card-solid.svg
+icon: /assets/img/icons/tablet-alt-solid.svg
 image: /assets/img/features/03.jpg
 ---
 
