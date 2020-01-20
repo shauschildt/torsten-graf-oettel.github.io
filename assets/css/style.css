@@ -297,8 +297,8 @@ label {
 }
 .main-menu ul li a {
 	color: #020d26;
-	font-size: 15px;
-	padding: 35px 0;
+	font-size: 18px;
+	padding: 34px 0 20px 0;
 	display: block;
 	font-weight: 600;
 	position: relative;
@@ -1588,7 +1588,7 @@ label {
   content: "";
   height: 2px;
   position: absolute;
-  width: 110%;
+  width: 11widget-title0%;
 }
 .sidebar-form{}
 .sidebar-form form {
