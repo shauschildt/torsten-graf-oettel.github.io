@@ -1568,12 +1568,12 @@ label {
 .widget {
 	background: #fff;
 	overflow: hidden;
-	padding: 10px;
+	padding: 0 10px 10px 10px;
 }
 .widget-title {
-  color: #000;
+  color: #999;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   height: auto;
   letter-spacing: 1px;
