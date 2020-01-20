@@ -1574,7 +1574,7 @@ label {
   color: #999;
   display: inline-block;
   font-size: 18px;
-  font-weight: bold;
+  text-transform: uppercase;
   height: auto;
   letter-spacing: 1px;
   line-height: 1;
@@ -1588,7 +1588,7 @@ label {
   content: "";
   height: 2px;
   position: absolute;
-  width: 50px;
+  width: 110%;
 }
 .sidebar-form{}
 .sidebar-form form {
@@ -1648,7 +1648,7 @@ label {
 	object-fit: cover;
 }
 .sidebar-rc-post .rc-post-content {
-  margin-left: 105px;
+  margin-left: 75px;
 }
 .sidebar-rc-post .rc-post-content h4 {
 	color: #000;
