@@ -775,7 +775,7 @@ label {
 .features-wrap.offline:hover        { background-image: url(../img/features/offline.jpg) }
 .features-wrap.access:hover         { background-image: url(../img/features/access.jpg) }
 .features-wrap.structures:hover     { background-image: url(../img/features/structures.jpg) }
-.features-wrap.marketing:hover      { background-image: url(../img/features/marketing.jpg) }
+.features-wrap.security:hover       { background-image: url(../img/features/security.jpg) }
 .features-wrap.websites:hover       { background-image: url(../img/features/websites.jpg) }
 .features-wrap.fulfillment:hover    { background-image: url(../img/features/fulfillment.jpg) }
 .features-wrap.metadata:hover       { background-image: url(../img/features/metadata.jpg) }

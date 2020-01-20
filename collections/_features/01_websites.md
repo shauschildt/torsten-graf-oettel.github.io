@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: Post-sales Asset Fulfillment
-identifier: fulfillment
-description: Manage any type of asset and provide title- or deal-based download access to selected clients via package downloads and faceted filters.
-icon: /assets/img/icons/shopping-basket-solid.svg
-image: /assets/img/features/fulfillment.jpg
+title: Turnkey Client Websites
+identifier: websites
+description: A modern, responsive client-facing catalogue, streaming and post-sales platform can effortlessly be customized to match your corporate's identity.
+icon: /assets/img/icons/desktop-solid.svg
+image: /assets/img/features/websites.jpg
 ---
 
 <div class="row">

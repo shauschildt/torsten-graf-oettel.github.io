@@ -2,7 +2,7 @@
 layout: feature
 title: Customizable Data Structures
 identifier: structures
-description: Granular contextual metadata of titles and their marketing and auxiliary assets for instant recovery and sharing; language layers support for global reach.
+description: Granular contextual metadata of titles, their marketing and auxiliary assets for instant recovery and sharing. 
 icon: /assets/img/icons/file-invoice-solid.svg
 image: /assets/img/features/structures.jpg
 ---
