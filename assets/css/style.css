@@ -765,12 +765,24 @@ label {
 	padding: 50px 30px;
 }
 .features-wrap:hover {
-	background-image: url(../img/about/5.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
 	transition: all .5s;
 }
+.features-wrap.analytics:hover      { background-image: url(../img/features/analytics.jpg) }
+.features-wrap.streaming:hover      { background-image: url(../img/features/streaming.jpg) }
+.features-wrap.offline:hover        { background-image: url(../img/features/offline.jpg) }
+.features-wrap.access:hover         { background-image: url(../img/features/access.jpg) }
+.features-wrap.structures:hover     { background-image: url(../img/features/structures.jpg) }
+.features-wrap.marketing:hover      { background-image: url(../img/features/marketing.jpg) }
+.features-wrap.websites:hover       { background-image: url(../img/features/websites.jpg) }
+.features-wrap.fulfillment:hover    { background-image: url(../img/features/fulfillment.jpg) }
+.features-wrap.metadata:hover       { background-image: url(../img/features/metadata.jpg) }
+.features-wrap.workflows:hover      { background-image: url(../img/features/workflows.jpg) }
+.features-wrap.api:hover            { background-image: url(../img/features/api.jpg) }
+.features-wrap.infrastructure:hover { background-image: url(../img/features/infrastructure.jpg) }
+
 .features-wrap:hover h4,.features-wrap:hover p{
 	color: #fff;
 }

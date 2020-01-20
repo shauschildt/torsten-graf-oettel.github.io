@@ -1,6 +1,7 @@
 ---
 layout: feature
-title: Portable Offline Screening 
+title: Portable Offline Screening
+identifier: offline
 description: Mobile app sync of titles and videos for portable offline screening with 2nd screen extensibility via HDMI or Airplay.
 icon: /assets/img/icons/tablet-alt-solid.svg
 image: /assets/img/features/offline.jpg

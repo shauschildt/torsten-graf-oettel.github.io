@@ -1,6 +1,7 @@
 ---
 layout: feature
 title: Adaptive Video Streaming
+identifier: streaming
 description: Online videos are adaptivily streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
 icon: /assets/img/icons/video-solid.svg
 image: /assets/img/features/streaming.jpg
