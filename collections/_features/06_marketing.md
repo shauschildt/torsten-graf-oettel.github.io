@@ -3,13 +3,13 @@ layout: feature
 title: Secure Screener Links
 description: Share screeners individually or to multiple users via secure, time or view restricted branded emails links and engage closer with your clients.
 icon: /assets/img/icons/lock-solid.svg
-image: /assets/img/service/details/lock-solid.jpg
+image: /assets/img/features/02.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Business Analysis</h3>
+            <h3>{{page.title}}</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut

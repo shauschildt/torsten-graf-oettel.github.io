@@ -3,13 +3,13 @@ layout: feature
 title: Granular Access Control
 description: Users, depending on their permissions, can view selected titles and marketing assets, instantly preview, and download. 
 icon: /assets/img/icons/user-lock-solid.svg
-image: /assets/img/features/05.jpg
+image: /assets/img/features/06.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Dedicated support quaerat parturient denouncing</h3>
+            <h3>{{page.title}}</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut

@@ -3,13 +3,13 @@ layout: feature
 title: Customizable Data Structures
 description: Granular contextual metadata of titles and their marketing and auxiliary assets for instant recovery and sharing; language layers support for global reach.
 icon: /assets/img/icons/file-invoice-solid.svg
-image: /assets/img/features/02.jpg
+image: /assets/img/features/01.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Dedicated support quaerat parturient denouncing</h3>
+            <h3>{{page.title}}</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut

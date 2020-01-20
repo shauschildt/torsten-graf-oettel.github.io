@@ -1,15 +1,15 @@
 ---
 layout: feature
-title: Detailed Analytics
-description: Real-time, actionable analytics tracking to provide comprehensive insights into retentions of any marketing activity.
-icon: /assets/img/icons/chart-bar-solid.svg
-image: /assets/img/features/01.jpg
+title: Adaptive Video Streaming
+description: Online videos are adaptivily streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
+icon: /assets/img/icons/video-solid.svg
+image: /assets/img/features/02.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Condimentum consectetur quaerat parturient denouncing</h3>
+            <h3>{{page.title}}</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
@@ -21,7 +21,7 @@ image: /assets/img/features/01.jpg
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/1.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
