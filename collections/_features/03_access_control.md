@@ -1,14 +1,15 @@
 ---
-layout: featured
-title: Optimised for speed
-image: /assets/img/features/01.jpg
-description: Condimentum consectetur quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+layout: feature
+title: Granular Access Control
+description: Users, depending on their permissions, can view selected titles and marketing assets, instantly preview, and download. 
+icon: /assets/img/icons/air-freshener-solid.svg
+image: /assets/img/features/05.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Condimentum consectetur quaerat parturient denouncing</h3>
+            <h3>Dedicated support quaerat parturient denouncing</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
@@ -20,7 +21,7 @@ description: Condimentum consectetur quaerat parturient denouncing pleasure and 
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/1.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/5.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

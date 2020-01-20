@@ -1,26 +1,30 @@
 # hero slider slide's
 
-- image_url: /assets/img/slider/slider1.jpg
-  heading_line_1: Engage with us to
-  heading_line_2: boost your
-  heading_highlight: content sales
-  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
-  text_line_2: alteration in some form by injected humour randomised
-  button_label: get started
+- image_url: /assets/img/slider/1.jpg
+  heading_line_1: Showcase your content anywhere
+  heading_line_2: while controlling
+  heading_highlight: who can view it
+  text: Our SaaS solution comprises a myriad of tools for content management, access control, marketing, sales, and fulfillment.
+  button_label: find out more
   button_url: /pages/contact  
-- image_url: /assets/img/slider/slider2.jpg
-  heading_line_1: Cooperate with us to
-  heading_line_2: simplify your
-  heading_highlight: distribution
-  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
-  text_line_2: alteration in some form by injected humour randomised
-  button_label: get started
+- image_url: /assets/img/slider/2.jpg
+  heading_line_1: Focus on content sales,
+  heading_line_2:  we will take care of
+  heading_highlight: the heavy lifting
+  text: Trusted by Hollywood studios and international distributors, MediaStore is the industry-leading audiovisual content and asset management system.
+  button_label: get in touch
   button_url: /pages/contact  
-- image_url: /assets/img/slider/slider3.jpg
-  heading_line_1: Meet with us to
-  heading_line_2: success dream
-  heading_highlight: business
-  text_line_1: There are many variations of passages of Lorem Ipsum available but the majority have suffered
-  text_line_2: alteration in some form by injected humour randomised
-  button_label: get started
+- image_url: /assets/img/slider/3.jpg
+  heading_line_1: Content is king - presentation is queen,
+  heading_line_2: showcase it within 
+  heading_highlight: a modern website
+  text: Brand our responsive sales and marketing site to your liking, or go for a fully custom design matching your corporate identity.
+  button_label: contact us
+  button_url: /pages/contact
+- image_url: /assets/img/slider/4.jpg
+  heading_line_1: Cut straight to the feature
+  heading_line_2: and capture 
+  heading_highlight: your clients' attention
+  text: Use one-click screening links, content selections, and an offline screening app for a seamless viewing experience.
+  button_label: request a demo  
   button_url: /pages/contact

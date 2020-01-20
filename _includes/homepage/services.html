@@ -1,7 +1,7 @@
-<section class="service-area grey-bg pb-70 pt-100">
+<section class="service-area pt-100 pb-50">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center mb-40">
+            <div class="col-xl-12 text-center pb-40 ">
                 <div class="section-title service-title">
                     <h2>Our Services</h2>
                     <p>No matter if you are looking for an out-of-the box SaaS or a fully-integrated solution, 
@@ -11,16 +11,20 @@
         </div>
         <div class="row">
             {% for service in site.services %}
-            <div class="col-lg-4 col-md-6 text-center mb-30">
-                <div class="features-wrap">
-                    {% if service.icon %}
-                    <div class="features-icon">
-                        <img src="{{service.icon}}" alt="{{service.title}}">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="{{service.image}}" class="img-fluid" alt="{{service.title}}">
                     </div>
-                    {% endif %}
-                    <h4>{{service.title}}</h4>
-                    <p>{{service.description}}</p>
-                    <a href="{{service.url}}">Read More</a>
+                    <div class="services-content">
+                        <div class="card-title">
+                            <h5><a href="{{service.url}}">{{service.title}}</a></h5>
+                        </div>
+                        <div class="card-text">
+                            <p>{{service.description}}</p>
+                        </div>
+                        <a href="{{service.url}}" class="btn">Read More</a>
+                    </div>
                 </div>
             </div>
             {% endfor %}

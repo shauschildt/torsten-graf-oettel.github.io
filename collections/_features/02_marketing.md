@@ -1,14 +1,15 @@
 ---
-layout: featured
-title: Highly customizable
-image: /assets/img/features/04.jpg
-description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
+layout: feature
+title: Secure Screener Links
+description: Share screeners individually or to multiple users via secure, time or view restricted branded emails links and engage closer with your clients.
+icon: /assets/img/icons/algolia-brands.svg
+image: /assets/img/service/details/sevice-details.jpg
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Dedicated support quaerat parturient denouncing</h3>
+            <h3>Business Analysis</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
@@ -20,7 +21,7 @@ description: Highly customizable parturient denouncing pleasure and praising pai
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="tincidunt">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

@@ -1,8 +1,9 @@
 ---
-layout: featured
-title: Responsive design
-image: /assets/img/features/03.jpg
-description: Responsive design parturient denouncing pleasure and praising pain was born and I will give you a complete.
+layout: feature
+title: Secure Video Playback
+description: Online video streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
+icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
+image: /assets/img/features/04.jpg
 ---
 
 <div class="row">
@@ -20,7 +21,7 @@ description: Responsive design parturient denouncing pleasure and praising pain 
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/3.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
