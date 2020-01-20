@@ -3,7 +3,7 @@ layout: feature
 title: Post-sales Asset Fulfillment
 description: Manage any type of asset and provide title- or deal-based download access to selected clients via package downloads and faceted filters.
 icon: /assets/img/icons/shopping-basket-solid.svg
-image: /assets/img/features/08.jpg
+image: /assets/img/features/fulfillment.jpg
 ---
 
 <div class="row">

@@ -3,7 +3,7 @@ layout: feature
 title: Complex Workflows
 description: Under the hood, our workflow engine achieves complex multi-step tasks and can be leveraged to suit your requirements.
 icon: /assets/img/icons/cogs-solid.svg
-image: /assets/img/features/10.jpg
+image: /assets/img/features/workflows.jpg
 ---
 
 <div class="row">

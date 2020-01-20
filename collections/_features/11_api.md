@@ -3,7 +3,7 @@ layout: feature
 title: Comprehensive API Interfacing
 description: Use or an fully API-based infrastructure to easily interface with external systems and accommodate complex two-way interactions
 icon: /assets/img/icons/plug-solid.svg
-image: /assets/img/features/11.jpg
+image: /assets/img/features/api.jpg
 ---
 
 <div class="row">
