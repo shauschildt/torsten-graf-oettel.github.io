@@ -1422,6 +1422,19 @@ label {
 	display: flex;
 	align-items: center;
 }
+
+.breadcrumb-area .container {
+  position: relative; 
+  height: 300px;
+}
+
+.breadcrumb-area .container .row {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  right: 0px;
+  margin: 0;
+}
 .breadcrumb {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1445,7 +1458,7 @@ label {
 }
 .breadcrumb li:last-child a:before{display:none}
 .breadcrumb li a {
-	color: #c5c5c5;
+	color: #a5a5a5;
 	padding: 0 7px;
 	position: relative;
 	display: inline-block;
@@ -1453,9 +1466,9 @@ label {
 .breadcrumb li a::before {
 	position: absolute;
 	right: -4px;
-	top: 2px;
+	top: 0px;
 	content: "/";
-	color: #c5c5c5;
+	color: #a5a5a5;
 }
 /* 13. Contact */
 .contact-person h4 {
