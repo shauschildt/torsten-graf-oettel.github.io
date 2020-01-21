@@ -5,6 +5,7 @@ identifier: fulfillment
 description: Manage any type of asset and provide title- or deal-based download access to selected clients via package downloads and high speed file transfer.
 icon: /assets/img/icons/shopping-basket-solid.svg
 image: /assets/img/features/fulfillment.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

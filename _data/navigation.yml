@@ -1,12 +1,12 @@
 # main navigation menue items / submenues are possbile
 
-- text: Services
+- text: services
   url: /pages/services
-- text: Features
+- text: features
   url: /pages/features
-- text: Projects
+- text: projects
   url: /pages/projects
-- text: About Us
+- text: about us
   url: /pages/about
-- text: Contact
+- text: contact
   url: /pages/contact

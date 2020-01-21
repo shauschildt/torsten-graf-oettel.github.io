@@ -5,6 +5,7 @@ identifier: api
 description: Use or an fully API-based infrastructure to easily interface with external systems and accommodate complex two-way interactions
 icon: /assets/img/icons/plug-solid.svg
 image: /assets/img/features/api.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

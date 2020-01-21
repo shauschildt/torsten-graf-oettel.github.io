@@ -11,14 +11,16 @@
 
     {% if page.url contains link.url %}
         {% assign active = 'active' %}
+    {% elsif page.url contains link.text %}
+        {% assign active = 'active' %}
     {% endif %}
      
      <li>
-         <a href="{{link.url}}" class="{{active}}">{{link.text}}{% if link.submenu %}<i class="icofont-simple-down"></i>{% endif %}</a>
+         <a href="{{link.url}}" class="text-capitalize {{active}}">{{ link.text }}{% if link.submenu %}<i class="icofont-simple-down"></i>{% endif %}</a>
         {% if link.submenu %}
         <ul class="sub-menu">
             {% for sublink in link.submenu %}
-            <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>
+            <li><a href="{{sublink.url}}" class="text-capitalize">{{ sublink.text }}</a></li>
             {% endfor %}
         </ul>
         {% endif %}

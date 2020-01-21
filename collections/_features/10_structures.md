@@ -5,6 +5,7 @@ identifier: structures
 description: Granular contextual metadata of titles, their marketing and auxiliary assets for instant recovery and sharing. 
 icon: /assets/img/icons/file-invoice-solid.svg
 image: /assets/img/features/structures.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

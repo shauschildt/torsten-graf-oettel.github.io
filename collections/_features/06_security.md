@@ -5,6 +5,7 @@ identifier: security
 description: Share screeners individually or to multiple users via secure, time or view restricted branded emails links to engage closer with your clients.
 icon: /assets/img/icons/lock-solid.svg
 image: /assets/img/features/security.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

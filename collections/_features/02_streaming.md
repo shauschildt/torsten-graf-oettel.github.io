@@ -5,6 +5,7 @@ identifier: streaming
 description: Online videos are adaptivily streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
 icon: /assets/img/icons/video-solid.svg
 image: /assets/img/features/streaming.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

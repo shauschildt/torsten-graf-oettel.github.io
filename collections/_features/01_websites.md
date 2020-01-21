@@ -5,6 +5,7 @@ identifier: websites
 description: A modern, responsive client-facing catalogue, streaming and post-sales platform can effortlessly be customized to match your corporate's identity.
 icon: /assets/img/icons/desktop-solid.svg
 image: /assets/img/features/websites.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

@@ -5,6 +5,7 @@ identifier: metadata
 description: Maintain multiple sets of metadata per title and asset in order to manage multi-language and pitch data and even vendor-specific schemas.
 icon: /assets/img/icons/layer-group-solid.svg
 image: /assets/img/features/metadata.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

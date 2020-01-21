@@ -5,6 +5,7 @@ identifier: workflows
 description: Under the hood, our workflow engine achieves complex multi-step tasks and can easily be leveraged to suit your business requirements.
 icon: /assets/img/icons/cogs-solid.svg
 image: /assets/img/features/workflows.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

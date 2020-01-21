@@ -5,6 +5,7 @@ identifier: infrastructure
 description: Our platform is fully cloud-based and scales to your needs, requiring no more than a web browser and and internet connection to interact with.
 icon: /assets/img/icons/network-wired-solid.svg
 image: /assets/img/features/infrastructure.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">

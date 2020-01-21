@@ -5,6 +5,7 @@ identifier: access
 description: Users, depending on their permissions, can view selected titles and marketing assets, instantly preview, and download. 
 icon: /assets/img/icons/user-lock-solid.svg
 image: /assets/img/features/access.jpg
+header_image: "/assets/img/bg/features.jpg"
 ---
 
 <div class="row">
