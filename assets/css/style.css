@@ -268,6 +268,13 @@ label {
 .header-single-cta span {
 	font-size: 14px;
 }
+.cta-area {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(../img/bg/discussion.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;  
+  background-size: cover;  
+}
 /* menu-area */
 .menu-area {
 	background: #fff;
@@ -770,18 +777,18 @@ label {
 	background-attachment: local;
 	transition: all .5s;
 }
-.features-wrap.analytics:hover      { background-image: url(../img/features/analytics.jpg) }
-.features-wrap.streaming:hover      { background-image: url(../img/features/streaming.jpg) }
-.features-wrap.offline:hover        { background-image: url(../img/features/offline.jpg) }
-.features-wrap.access:hover         { background-image: url(../img/features/access.jpg) }
-.features-wrap.structures:hover     { background-image: url(../img/features/structures.jpg) }
-.features-wrap.security:hover       { background-image: url(../img/features/security.jpg) }
-.features-wrap.websites:hover       { background-image: url(../img/features/websites.jpg) }
-.features-wrap.fulfillment:hover    { background-image: url(../img/features/fulfillment.jpg) }
-.features-wrap.metadata:hover       { background-image: url(../img/features/metadata.jpg) }
-.features-wrap.workflows:hover      { background-image: url(../img/features/workflows.jpg) }
-.features-wrap.api:hover            { background-image: url(../img/features/api.jpg) }
-.features-wrap.infrastructure:hover { background-image: url(../img/features/infrastructure.jpg) }
+.features-wrap.analytics:hover      { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/analytics.jpg) }
+.features-wrap.streaming:hover      { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/streaming.jpg) }
+.features-wrap.offline:hover        { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/offline.jpg) }
+.features-wrap.access:hover         { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/access.jpg) }
+.features-wrap.structures:hover     { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/structures.jpg) }
+.features-wrap.security:hover       { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/security.jpg) }
+.features-wrap.websites:hover       { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/websites.jpg) }
+.features-wrap.fulfillment:hover    { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/fulfillment.jpg) }
+.features-wrap.metadata:hover       { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/metadata.jpg) }
+.features-wrap.workflows:hover      { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/workflows.jpg) }
+.features-wrap.api:hover            { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/api.jpg) }
+.features-wrap.infrastructure:hover { background-image:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/features/infrastructure.jpg) }
 
 .features-wrap:hover h4,.features-wrap:hover p{
 	color: #fff;
@@ -1006,9 +1013,11 @@ label {
 }
 /* 7. Counter */
 .counter-area {
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../img/bg/gear.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .single-counter span {
 	font-size: 48px;
