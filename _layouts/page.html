@@ -17,7 +17,11 @@ layout: default
             <div class="breadcrumb">
                 <ul>
                     <li><a href="{{site.url}}">Home</a></li>
-                    <li class="text-white pl-1 text-capitalize">{{ page.layout }}</li>
+                    {% if page.layout != "page" %}
+                      <li class="text-white pl-1 text-capitalize">{{ page.layout }}</li>
+                    {% else %}
+                      <li class="text-white pl-1 text-capitalize">{{ page.title }}</li>
+                    {% endif %}
                 </ul>
             </div>
           {% endif %}

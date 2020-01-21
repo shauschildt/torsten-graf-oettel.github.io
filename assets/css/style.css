@@ -818,10 +818,12 @@ label {
 }
 .services-box:hover {
 }
-
 .services-content {
 	padding: 20px;
 	padding-top: 0px;
+}
+.services-content a {
+  color: #ff343c;
 }
 .service-title h2::before {
 	content: "";
@@ -844,12 +846,15 @@ label {
 .services-box:hover .services-img img{
 	transform: scale(1.2);
 }
-.card-title h5 {
-	margin-bottom: 15px;
+.card-title {
+	margin-bottom: 20px;
 	font-weight: 600;
+  color: #ff343c;
+	display: inline-block;
 }
 .card-text p {
 	margin-bottom: 25px;
+  min-height: 110px;
 }
 .services-box a.btn {
 	padding: 11px 15px;

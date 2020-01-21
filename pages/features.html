@@ -1,44 +1,43 @@
 ---
 layout: page
-pagination: 
-  enabled: true
-permalink: "/pages/features/"
-title: Features
+permalink: "/pages/features"
+title: features
 header_image: "/assets/img/bg/features.jpg"
 ---
 
-<div class="basic-blog-area gray-bg pt-100 pb-100">
+<!-- services-area -->
+<section class="service-area pt-100 pb-50">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 blog-post-items">
-              {% for post in paginator.posts %}
-                <div class="blog-wrapper mb-40">
-                    <div class="blog-thumb">
-                        <a href="{{post.url}}">
-                            <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/>
-                        </a>
-                    </div>
-                    <div class="meta-info">
-                        <ul>
-                            <li class="posts-time">{{post.date | date_to_long_string}}</li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blog-title">
-                            <a href="{{post.url}}">{{post.title}}</a>
-                        </h2>
-                        <p>{{post.excerpt | strip_html | truncatewords:"30"}}</p>
-                    </div>
-                    <div class="link-box">
-                        <a href="{{post.url}}">Read More</a>
-                    </div>
+            <div class="col-xl-12 text-center pb-40 ">
+                <div class="section-title service-title">
+                    <h2>Platform Features</h2>
+                    <p>Our custom build content and asset management solution "MediaStore" is most secure and highly scalable to match all needs across the industry - those of big studio clients as well as of small distributors.</p>
                 </div>
-              {% endfor %}
-             {% include pagination.html %}
-            </div>
-            <div class="col-lg-4 sm-mt sidebar-blog right-side">
-             {% include sidebar.html %}
             </div>
         </div>
+        <div class="row">
+          {% for feature in site.features %}
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
+              <div class="services-box">
+                <div class="services-img">
+                  <a href="{{ feature.url }}">
+                    <img class="img-fluid" src="{{ feature.image }}" alt="{{ feature.title }}"/>
+                  </a>
+                </div>
+                <div class="services-content">
+                  <a href="{{feature.url}}">
+                    <img class="img-fluid" src="{{ feature.icon }}" alt="{{ feature.title }}" style="max-height: 30px; max-width: 30px; margin-right:10px;"/> 
+                    <h6 class="card-title">{{ feature.title }}</h6>
+                  </a>
+                  <div class="card-text">
+                    <p>{{ feature.description }}</p>
+                  </div>
+                  <a href="{{feature.url}}">Read More</a>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
     </div>
-</div>
+</section>
