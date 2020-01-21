@@ -1598,7 +1598,7 @@ label {
 .widget {
 	background: #fff;
 	overflow: hidden;
-	padding: 0 10px 10px 10px;
+	padding: 0;
 }
 .widget-title {
   color: #999;
@@ -1609,7 +1609,7 @@ label {
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   position: relative;
 }
 .widget-title::before {
@@ -1667,10 +1667,10 @@ label {
 .sidebar-rc-post .rc-post-thumb {
   display: inline-block;
   float: left;
-  max-height: 70px;
+  max-height: 50px;
   overflow: hidden;
   position: relative;
-  width: 40px;
+  width: 35px;
 }
 .rc-post-thumb img {
 	width: 100%;
@@ -1678,7 +1678,7 @@ label {
 	object-fit: cover;
 }
 .sidebar-rc-post .rc-post-content {
-  margin-left: 75px;
+  margin-left: 50px;
 }
 .sidebar-rc-post .rc-post-content h4 {
 	color: #000;
