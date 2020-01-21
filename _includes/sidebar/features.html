@@ -1,5 +1,5 @@
 <div class="widget">
-    <h4 class="widget-title">Features</h4>
+    <h4 class="widget-title mt-20">Features</h4>
     <div class="sidebar-rc-post">
         <ul>
            {% for feature in site.features %}
@@ -16,7 +16,7 @@
                 </div>
                 <div class="rc-post-content">
                     <h4>
-                        <a href="{{feature.url}}" class="{{active}}">{{feature.title}}</a>
+                        <a href="{{feature.url}}#{{feature.identifier}}" class="{{active}}">{{feature.title}}</a>
                     </h4>
                 </div>
             </li>

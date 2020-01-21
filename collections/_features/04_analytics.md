@@ -11,7 +11,6 @@ header_image: "/assets/img/bg/features.jpg"
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>{{page.title}}</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
