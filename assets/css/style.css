@@ -80,6 +80,9 @@ button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
 .capitalize {
 	text-transform: capitalize;
 }
+.pluralize:after {
+   content: "s";
+}
 h1,
 h2,
 h3,
