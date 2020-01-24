@@ -1,14 +1,14 @@
 ---
-layout: featured
-title: Official Support
-image: /assets/img/services/02.jpg
-description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+layout: service
+title: Website Setup & Operation
+description: Wether you opt for a white-label or a custom-designed client site - we will get your new marketign site up and running within days rather then months. 
+image: /assets/img/services/platform_operation.jpg
+header_image: "/assets/img/bg/services.jpg"
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Dedicated support quaerat parturient denouncing</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
@@ -20,7 +20,7 @@ description: Dedicated support quaerat parturient denouncing pleasure and praisi
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/2.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

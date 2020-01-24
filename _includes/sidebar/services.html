@@ -1,0 +1,21 @@
+<div class="widget">
+    <h4 class="widget-title mt-15">Services</h4>
+    <div class="sidebar-rc-post">
+        <ul>
+           {% for service in site.services %}
+           {% assign active = nil %}
+           {% if page.url contains service.url %}
+               {% assign active = 'active' %}
+           {% endif %}
+           
+            <li>
+                <div class="rc-post-content wo-thumb">
+                    <h4>
+                        <a href="{{service.url}}#content" class="{{active}}">{{service.title}}</a>
+                    </h4>
+                </div>
+            </li>
+           {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -1680,6 +1680,9 @@ label {
 .sidebar-rc-post .rc-post-content {
   margin-left: 50px;
 }
+.sidebar-rc-post .rc-post-content.wo-thumb {
+  margin-left: 0px;
+}
 .sidebar-rc-post .rc-post-content h4 {
 	color: #000;
 	display: block;

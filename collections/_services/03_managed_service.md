@@ -1,14 +1,14 @@
 ---
-layout: featured
-title: Highly customizable
-image: /assets/img/services/03.jpg
-description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
+layout: service
+title: Content & Asset Managment
+description: Need support in your content and asset management tasks? We are here to free you from your daily routines by offering a fully managed service 24/7.
+image: /assets/img/services/managed_service.jpg
+header_image: "/assets/img/bg/services.jpg"
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <h3>Dedicated support quaerat parturient denouncing</h3>
             <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
                 dolore mage aliquami erat volpate Ut wisi
                 enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
@@ -20,7 +20,7 @@ description: Highly customizable parturient denouncing pleasure and praising pai
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="tincidunt">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
