@@ -11,11 +11,11 @@ text: "Why build in-house or contract with an agency if a readymade, purpose-bui
 
 subtitle_1: Start immediately
 subimage_1: /assets/img/features/details/website-white-labelled.png
-text_1: "Our standard client-facing platform comes with all the features you need to showcase your catalogue, offer personal screening links, provide post-sales asset downloads, and much more. Just provide us with some details and specifications (logo, colours, email texts, etc.) and we'll get your bespoke version up and running swiftly. Need customization beyond the scope of our key configuration options? No problem, the design is flexible enough to add, change or remove elements. CMS functionality is available to easily manage presentational elements such as sliders, contact pages, news and much more."
+subtext_1: "Our standard client-facing platform comes with all the features you need to showcase your catalogue, offer personal screening links, provide post-sales asset downloads, and much more. Just provide us with some details and specifications (logo, colours, email texts, etc.) and we'll get your bespoke version up and running swiftly. Need customization beyond the scope of our key configuration options? No problem, the design is flexible enough to add, change or remove elements. CMS functionality is available to easily manage presentational elements such as sliders, contact pages, news and much more."
 
 subtitle_2: Go for a fully custom design
 subimage_2: /assets/img/features/details/website-custom.png
-text_2: "If you'd rather have your client-facing platform skinned with a fully custom design from scratch, we are on hand to help define the requirements and guide your design team towards a comprehensive specification our developers can put into action. Alternatively, our trusted design partners are available in case you would like us to lead the design process itself. The end result: A unique implementation of our client-facing platform with no compromise towards matching your corporate identity or detailed style guide."
+subtext_2: "If you'd rather have your client-facing platform skinned with a fully custom design from scratch, we are on hand to help define the requirements and guide your design team towards a comprehensive specification our developers can put into action. Alternatively, our trusted design partners are available in case you would like us to lead the design process itself. The end result: A unique implementation of our client-facing platform with no compromise towards matching your corporate identity or detailed style guide."
 ---
 
 <div class="row">
@@ -36,7 +36,7 @@ text_2: "If you'd rather have your client-facing platform skinned with a fully c
     <div class="col-xl-6 col-lg-12">
         <div class="service-details mb-40">
             <h3>{{ page.subtitle_1 }}</h3>
-            <p>{{ page.text_1 }}</p>
+            <p>{{ page.subtext_1 }}</p>
         </div>
     </div>
 </div>
@@ -44,7 +44,7 @@ text_2: "If you'd rather have your client-facing platform skinned with a fully c
     <div class="col-xl-6 col-lg-12">
         <div class="service-details mb-40">
             <h3>{{ page.subtitle_2 }}</h3>
-            <p>{{ page.text_2 }}</p>
+            <p>{{ page.subtext_2 }}</p>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

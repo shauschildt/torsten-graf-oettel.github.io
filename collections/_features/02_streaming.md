@@ -2,47 +2,37 @@
 layout: feature
 title: Adaptive Video Streaming
 identifier: streaming
-description: Online videos are adaptivily streaming with advanced protection features that include dynamic DRM, visible watermarking, and two-factor authentication. 
+description: Our adaptive video streaming is AES-encrypted and offers advanced protection features including dynamic DRM, visible watermarking, and two-factor authentication.
 icon: /assets/img/icons/video-solid.svg
 image: /assets/img/features/streaming.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "Our state-of-the-art video streaming engine adapts to the user's bandwidth for a seamless viewing experience. And even when dealing with sensitive pre-release material, you can rest assured that your videos are fully secured. All streaming video is delivered via HLS with AES encryption by default, while additional security measures can optionally be added."
+
+subtitle: Additional security measures
+subimage: /assets/img/features/details/streaming-2fa.png
+subtext: "Our standard client-facing platform comes with all the features you need to showcase your catalogue, offer personal screening links, provide post-sales asset downloads, and much more. Just provide us with some details and specifications (logo, colours, email texts, etc.) and we'll get your bespoke version up and running swiftly. Need customization beyond the scope of our key configuration options? No problem, the design is flexible enough to add, change or remove elements. CMS functionality is available to easily manage presentational elements such as sliders, contact pages, news and much more."
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
+            <p>{{ page.text }}</p>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/4.jpg" alt="{{page.title}}">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+        <div class="s-details-img mb-30">
+          <a href="{{ page.subimage }}" class="view">
+            <img src="{{ page.subimage }}" alt="{{ page.title }}">  
+          </a>
         </div>
     </div>
-</div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
 </div>
