@@ -6,43 +6,33 @@ description: Real-time, actionable analytics tracking to provide comprehensive i
 icon: /assets/img/icons/chart-bar-solid.svg
 image: /assets/img/features/analytics.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "Client activity is captured in real time using metrics which can be reviewed for any time range directly in the platform. Review our one-stop dashboards for a glance at overall activity and the most viewed titles and videos, or dive into deep links to any object's dedicated analytics page in order to review activity more specifically - e.g. which titles a specific user viewed or who watched the most minutes of a specific screener. Excel exports provide deeper insights, down to individual view traces, for further offline analysis and processing."
+
+subtitle: Automated weekly email reports
+subimage: /assets/img/features/details/analytics-screen.png
+subtext: "Sign up for the platform's analytics reports for a weekly email summarizing key activity, including week-on-week trends. For a more specific view of activity made by clients who are allocated to a specific sales agent, a separate email report is available, as well as an optional spreadsheet attachment of video views segmenting clients by responsible sales agent."
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
+            <p>{{ page.text }}</p>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/1.jpg" alt="{{page.title}}">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+        <div class="s-details-img mb-30">
+          <a href="{{ page.subimage }}" class="view">
+            <img src="{{ page.subimage }}" class="border" alt="{{ page.title }}">  
+          </a>
         </div>
     </div>
-</div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
 </div>
