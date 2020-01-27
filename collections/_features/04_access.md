@@ -6,43 +6,52 @@ description: Users, depending on their permissions, can view selected titles and
 icon: /assets/img/icons/user-lock-solid.svg
 image: /assets/img/features/access.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "Each object in our platform comes with a dedicated set of access settings, giving you full transparency and keeping you in control of which user is currently receiving which degree of access, be it internal or external users. In addition, titles and/or assets can be grouped in order to give specific clients increased access - for instance in order to keep global access restricted and provide download access only to confirmed licensees."
+
+subtitle_1: Access, permissions and scheduling
+subimage_1: /assets/img/features/details/access-schedule.png
+subtext_1: "General access settings range incrementally from Private (high-level admins only) to Public (public visitors of the client site). For assets, an additional, separate download permission determines whether or not client users (or even visitors) may download the source file. Each parameter can be scheduled to change at a given point in the future, e.g. to coincide with launch dates or license expiries."
+
+subtitle_2: Group-based access and divisions
+subimage_2: /assets/img/features/details/access-groups.png
+subtext_2: "While global access parameters can serve to keep titles and assets as restricted as needed, privileged access can easily be granted to selected clients simply by grouping both the titles/assets and users while defining increased group-wide access. Even your company's internal divisions can be separated through a dedicated access parameter and allocation of internal users to the appropriate unit."
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
+            <p>{{ page.text }}</p>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/5.jpg" alt="{{page.title}}">
+          <a href="{{ page.subimage_1 }}" class="view">
+            <img src="{{ page.subimage_1 }}" alt="{{ page.title }}">  
+          </a>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
         <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+            <h3>{{ page.subtitle_1 }}</h3>
+            <p>{{ page.subtext_1 }}</p>
         </div>
     </div>
 </div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
+<div class="row">
+    <div class="col-xl-6 col-lg-12">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle_2 }}</h3>
+            <p>{{ page.subtext_2 }}</p>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-12">
+        <div class="s-details-img mb-30">
+          <a href="{{ page.subimage_2 }}" class="view">
+            <img src="{{ page.subimage_2 }}" class="border" alt="{{ page.title }}">
+          </a>
+        </div>
+    </div>
 </div>
