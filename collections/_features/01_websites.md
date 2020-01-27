@@ -28,7 +28,9 @@ text_2: "If you'd rather have your client-facing platform skinned with a fully c
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-          <img src="{{ page.subimage_1 }}" alt="{{ page.title }}">
+          <a href="{{ page.subimage_1 }}" class="view">
+            <img src="{{ page.subimage_1 }}" alt="{{ page.title }}">  
+          </a>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
@@ -47,7 +49,9 @@ text_2: "If you'd rather have your client-facing platform skinned with a fully c
     </div>
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-          <img src="{{ page.subimage_2 }}" alt="{{ page.title }}">
+          <a href="{{ page.subimage_2 }}" class="view">
+            <img src="{{ page.subimage_2 }}" alt="{{ page.title }}">
+          </a>
         </div>
     </div>
 </div>
