@@ -2,47 +2,33 @@
 layout: feature
 title: Secure Screener Links
 identifier: security
-description: Share screeners individually or to multiple users via secure, time or view restricted branded emails links to engage closer with your clients.
+description: Share screeners individually or to multiple users via secure, time or view restricted branded email links to engage closer with your clients.
 icon: /assets/img/icons/lock-solid.svg
 image: /assets/img/features/security.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "Targeted screening links can be sent to anyone, whether they're already a user of your client platform or not. Trigger a screening recommendation from a single title immediately or compile a package first, then simply define the recipient(s) and key validity parameters such as an expiry date, login/registration requirement and, optionally, the maximum number of views. Each recipient will get their own private screening link accessible immediately through the email, or at any time in their logged-in client dashboard."
+
+subtitle: Selections and Screening Rooms
+subimage: /assets/img/features/details/security-screening_link.png
+subtext: "In addition to screening recommendations, larger content packages - especially if they are liable to change over time - can be deposited as selections in each client's dashboard. Alternatively, the same goes for individual videos, which can also be showcased as straight-up playlists in customizable screening rooms."
 ---
 
 <div class="row">
-    <div class="col-md-12">
-        <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
-        </div>
-    </div>
-</div>
-<div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="tincidunt">
+          {% if page.subimage %}
+          <a href="{{ page.subimage }}" class="view">
+            <img src="{{ page.subimage }}" alt="{{ page.title }}">  
+          </a>
+          {% endif %}
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
         <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+            <p>{{ page.text }}</p>
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
-</div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
 </div>

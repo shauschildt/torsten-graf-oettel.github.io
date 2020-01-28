@@ -6,43 +6,35 @@ description: Under the hood, our workflow engine achieves complex multi-step tas
 icon: /assets/img/icons/cogs-solid.svg
 image: /assets/img/features/workflows.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "All processes in the platform, from uploading an asset to sending batch download link, are handled by a powerful and flexible workflow engine. Atomizing technical processes into discrete steps with individual status reporting, this system is not only versatile for handling off-the-shelf processes, but also as a backbone to implement any custom processes you may have in mind - whether to accommodate a custom feature you have in a mind or a regular interaction with an external system. Furthermore, each workflow's status is available to review in a filterable list for immediate transparency of their status and any errors."
+
+subtitle: 
+subimage: 
+subtext: 
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
+            <p>{{ page.text }}</p>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="tincidunt">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+        <div class="s-details-img mb-30">
+          {% if page.subimage %}
+          <a href="{{ page.subimage }}" class="view">
+            <img src="{{ page.subimage }}" class="border" alt="{{ page.title }}">  
+          </a>
+          {% endif %}
         </div>
     </div>
-</div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
 </div>

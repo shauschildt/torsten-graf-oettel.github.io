@@ -6,43 +6,35 @@ description: Manage any type of asset and provide title- or deal-based download 
 icon: /assets/img/icons/shopping-basket-solid.svg
 image: /assets/img/features/fulfillment.jpg
 header_image: "/assets/img/bg/features.jpg"
+
+text: "If you'd like to use our platform beyond the sales and marketing phase, it can also take care of delivering assets to your licensees. Using our flexible access controls, you can selectively provide (timed) access to any set of assets to a specific client, who can then retrieve them in the client-site by using any of the several self-service download options including ZIP package delivery and Aspera Faspex file transfer. However, you can also take care of sending email-based download links to your clients in case you'd like to minimise their share of the effort even further."
+
+subtitle: 
+subimage: 
+subtext: 
 ---
 
 <div class="row">
     <div class="col-md-12">
         <div class="service-details mb-40">
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet
-                dolore mage aliquami erat volpate Ut wisi
-                enim ad minim veniam, quis nostrud exerci tation corper cipit lobortis nisl ut
-                aliquip ex ea comcon sequat. Duis autem velue
-                eum iriure dolor in hendrerit in vulputate velitesse consequat .</p>
+            <p>{{ page.text }}</p>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/details/01.jpg" alt="tincidunt">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>Awesome Teamwork Attention</h3>
-            <p>Consectetuer adipiscing elit, sed diam nonumy nibh euismod tincidunt ut laoreet dolore mage aliquami erat volpate Ut
-            wisi enim ad minim veniam, quis nos trud exerci tation corper cipit lobortis nisl ut aliq uip ex ea comcon sequat. Duis
-            autem velue eum iriure dolor in hendrerit in vulputate velitesse conse quat Ut wisi enim ad minim veniam.</p>
+        <div class="s-details-img mb-30">
+          {% if page.subimage %}
+          <a href="{{ page.subimage }}" class="view">
+            <img src="{{ page.subimage }}" class="border" alt="{{ page.title }}">  
+          </a>
+          {% endif %}
         </div>
     </div>
-</div>
-<div class="service-details mb-30">
-    <h3>Your Succes Will be Done</h3>
-    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatu cepteusint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim laborum. Curatur pretium tincidunt lacus. Nulla gravida
-        orci a odio. Nullam varius, turpis et
-        commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
-        Integer in mauris nibh euismod gravida.
-        Duis ac tellus et risus vulputate vehicula.</p>
 </div>
