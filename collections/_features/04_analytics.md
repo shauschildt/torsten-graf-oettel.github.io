@@ -23,16 +23,16 @@ subtext: "Sign up for the platform's analytics reports for a weekly email summar
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>{{ page.subtitle }}</h3>
-            <p>{{ page.subtext }}</p>
-        </div>
-    </div>
-    <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
           <a href="{{ page.subimage }}" class="view">
             <img src="{{ page.subimage }}" class="border" alt="{{ page.title }}">  
           </a>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-12">
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
 </div>

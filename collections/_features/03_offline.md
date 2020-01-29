@@ -26,6 +26,11 @@ subtext_2: "Our new mobile application not only covers your sales usage, but dou
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
+        <div class="s-details-img mb-30">
+          <img src="{{ page.subimage_1 }}" alt="{{ page.title }}">  
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-12">
         <div class="service-details mb-40">
             <h3>{{ page.subtitle_1 }}</h3>
             <p>{{ page.subtext_1 }}</p>
@@ -33,13 +38,6 @@ subtext_2: "Our new mobile application not only covers your sales usage, but dou
         <div class="service-details mb-40">
             <h3>{{ page.subtitle_2 }}</h3>
             <p>{{ page.subtext_2 }}</p>
-        </div>
-    </div>
-    <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-          <a href="{{ page.subimage_1 }}" class="view">
-            <img src="{{ page.subimage_1 }}" alt="{{ page.title }}">  
-          </a>
         </div>
     </div>
 </div>

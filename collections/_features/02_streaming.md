@@ -23,16 +23,14 @@ subtext: "Our standard client-facing platform comes with all the features you ne
 </div>
 <div class="row">
     <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <h3>{{ page.subtitle }}</h3>
-            <p>{{ page.subtext }}</p>
+        <div class="s-details-img mb-30">
+          <img src="{{ page.subimage }}" alt="{{ page.title }}">  
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
-        <div class="s-details-img mb-30">
-          <a href="{{ page.subimage }}" class="view">
-            <img src="{{ page.subimage }}" alt="{{ page.title }}">  
-          </a>
+        <div class="service-details mb-40">
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
         </div>
     </div>
 </div>
