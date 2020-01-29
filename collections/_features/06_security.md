@@ -16,19 +16,19 @@ subtext: "In addition to screening recommendations, larger content packages - es
 
 <div class="row">
     <div class="col-xl-6 col-lg-12">
+        <div class="service-details mb-40">
+            <p>{{ page.text }}</p>
+            <h3>{{ page.subtitle }}</h3>
+            <p>{{ page.subtext }}</p>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
           {% if page.subimage %}
           <a href="{{ page.subimage }}" class="view">
             <img src="{{ page.subimage }}" alt="{{ page.title }}">  
           </a>
           {% endif %}
-        </div>
-    </div>
-    <div class="col-xl-6 col-lg-12">
-        <div class="service-details mb-40">
-            <p>{{ page.text }}</p>
-            <h3>{{ page.subtitle }}</h3>
-            <p>{{ page.subtext }}</p>
         </div>
     </div>
 </div>
