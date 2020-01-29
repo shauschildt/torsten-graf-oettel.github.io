@@ -1,20 +1,27 @@
 ---
 layout: page
 title: About Us
-header_image: "/assets/img/bg/team.jpg"
+image: 
+image_1: /assets/img/about/about-product.jpg
+image_2: /assets/img/about/about-philosophy.jpg
+image_3: /assets/img/about/about-building.jpg
+header_image: /assets/img/bg/team.jpg
 ---
 <!-- about-info -->
 <section class="about-info pt-100">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <div class="about-info-text">
-                    <h2>We are Awesome people</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita,quas ab adipisci. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
-                    <a href="#" class="btn">Read More</a>
+                <div class="about-info-text mb-40">
+                    <h1>{{ site.company }}</h1>
+                    <p></p>
+                    <p>Headquartered in Berlin, our company is helmed by a group of industry veterans who have been at the forefront of the B2B audiovisual sales sector since 2007. Now operating as an independent company, our team from various regions and nations is based in the vibrant German capital and serves owners and distributors of audiovisual content from around the world.</p>
                     <div class="info-img">
-                        <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt="">
+                      {% if page.image %}
+                        <img src="{{ page.image }}" class="img-fluid" alt="team">
+                      {% endif %}
                     </div>
+                    <a href="mailto:{{site.email}}" class="btn">Contact us</a>
                 </div>
             </div>
         </div>
@@ -23,31 +30,47 @@ header_image: "/assets/img/bg/team.jpg"
 <!-- about-area -->
 <section class="about-area grey-bg pb-60 pt-100">
     <div class="container">
-        <div class="row">
+        <div class="row mb-40">
             <div class="col-xl-6 col-lg-6 mb-40">
                 <div class="section-title">
-                    <h2>About Us</h2>
+                    <h2>{{ site.product }}</h2>
                 </div>
                 <div class="about-content">
-                    <p>Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. <br> <br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <p>Our primary product is our leading SaaS content and asset management, sales and fulfillment platform, a product born from over a decade of cooperating closely with Hollywood studios, blue chip heavyweights from the audiovisual media industry as well as specialized distributors. With our web-based software and our competent service offering, we support our clients in making content management and distribution easier, faster and more efficient.</p>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 mb-20 md-margin">
-                <div class="row">
-                    <div class="col-xl-6 col-md-6 mb-20">
-                        <div class="about-img">
-                            <img src="{{site.baeurl}}/assets/img/about/about1.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6 mb-20">
-                        <div class="about-img">
-                            <img src="{{site.baseurl}}/assets/img/about/about2.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
+              <img src="{{ page.image_1 }}" class="img-fluid border" alt="{{ site.product }}">
+            </div>
+        </div>
+        <div class="row mb-40">
+            <div class="col-xl-6 col-lg-6 mb-20 md-margin">
+              <img src="{{ page.image_2 }}" class="img-fluid" alt="">
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-40">
+                <div class="section-title">
+                    <h2>Philosophy</h2>
                 </div>
+                <div class="about-content">
+                    <p>We embrace industry standards and utilize open-source components to optimize costs and leverage the best thinking in the market. We have hands-on experience of integrating our solution with several commercial and industrial systems and are partnering with renowned technical service providers, system integrators and solution vendors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-40">
+            <div class="col-xl-6 col-lg-6 mb-40">
+                <div class="section-title">
+                    <h2>Get in touch</h2>
+                </div>
+                <div class="about-content">
+                    <p>Email us, give us a call or join us for a coffee at our Berlin office if you are interested in how our solution could help you save money and concentrate on what matters. We're experienced in onboarding even complex cases and are confident we can make you an appealing offer.</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-20 md-margin">
+              <img src="{{ page.image_3 }}" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 </section>
+
 <!-- team-are -->
-{% include team/members.html %}
+<!-- {% include team/members.html %} -->

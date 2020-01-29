@@ -1,7 +1,8 @@
 title: mediapeeers pro
 description: >- # this means to ignore newlines until "baseurl:"
   MediaStore - a studio-grade cloud solutions to streamline content sales and distribution - allows you to manage, market, license and deliver your audiovisual content using a user-friendly web interface accessible anywhere, anytime. Reduce back office workload and transaction costs from screening to delivery. Increase transparency and knowledge about your clients and business activities. Pick the modules you need and you will have your custom solution in no time.
-company: mediapeers<sup> pro</sup> GmbH
+company: mediapeers<sup> pro</sup>
+product: MediaStore
 baseurl: "" # the subpath of your site, e.g. /pages
 url: "https://www.mediapeers.pro" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 logo_white_bg: "/assets/img/logos/logo_white_bg.png"
