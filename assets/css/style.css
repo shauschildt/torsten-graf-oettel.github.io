@@ -1244,7 +1244,7 @@ label {
 	transition: .5s;
 }
 .single-team:hover .team-img::before{
-	opacity: .7;
+	opacity: .3;
 }
 .team-img img {
 	width: 100%;
