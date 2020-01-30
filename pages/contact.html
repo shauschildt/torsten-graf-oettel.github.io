@@ -10,23 +10,26 @@ header_image: "/assets/img/bg/contact.jpg"
         <div class="row">
             <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
                 <div class="contact-person">
-                    <h4>Micro Center.</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="far fa-calendar-alt"></i>Mon - Fri 9:00 am - 2:00 PM</a>
+                    <h4>Visit our office</h4>
+                    <p>Feel free to drop by for a coffee or tea. We are open to explain our offerings and discuss how they fit your needs in a face-to-face chat.</p>
+                    <a href="{{site.location}}" target="blank">
+                      <div><i class="fas fa-map-marker-alt"></i>{{site.address}}</div>
+                      <div><i class="far fa-calendar-alt"></i>{{ site.opening_hours }}</div>
+                    </a>
                 </div>
             </div>
             <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
                 <div class="contact-person">
-                    <h4>Enquiry Phone.</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="fas fa-phone"></i>(+01) 204 0234 2065</a>
+                    <h4>Give us a call</h4>
+                    <p>Happy to jump on the phone and explain our offerings and discuss how they match your demands in a call.</p>
+                    <a href="tel:{{site.phone}}"><i class="fas fa-phone"></i>{{ site.phone }}</a>
                 </div>
             </div>
             <div class="col-xl-4 col-md-4 text-center text-md-left mb-30">
                 <div class="contact-person">
                     <h4>Drop a line</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna posuere.</p>
-                    <a href="#" class=""><i class="far fa-envelope"></i>info@admin.net</a>
+                    <p>Limited time to talk? Drop us a line and we get back to you via email. Just let us know your availabilities and we can schedule an online presentation.</p>
+                    <a href="mailto:{{site.email}}"><i class="far fa-envelope"></i>{{ site.email }}</a>
                 </div>
             </div>
         </div>
@@ -38,14 +41,16 @@ header_image: "/assets/img/bg/contact.jpg"
         <div class="row">
             <div class="col-12">
                 <div class="maps">
-                    <a href="#"><img src="/assets/img/map.png" class="img-fluid" alt=""></a>
+                    <a href="{{site.location}}" target="blank">
+                      <img src="/assets/img/contact/map.png" class="img-fluid" alt="office location">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- contact-form -->
-<section class="contact-form pb-100 pt-100">
+<!-- <section class="contact-form pb-100 pt-100">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -80,4 +85,4 @@ header_image: "/assets/img/bg/contact.jpg"
             </div>
         </div>
     </div>
-</section>
+</section> -->
