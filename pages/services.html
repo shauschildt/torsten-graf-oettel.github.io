@@ -18,25 +18,25 @@ header_image: "/assets/img/bg/services.jpg"
         </div>
         <div class="row">
           {% for service in site.services %}
-            <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
-              <div class="services-box">
-                <div class="services-img">
-                  <a href="{{ service.url }}">
-                    <img class="img-fluid" src="{{ service.image }}" alt="{{ service.title }}"/>
-                  </a>
-                </div>
-                <div class="services-content">
-                  <a href="{{service.url}}#content">
-                    <h6 class="card-title">{{ service.title }}</h6>
-                  </a>
-                  <div class="card-text">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="blog-wrapper home-blog-wrapper white-bg">
+                    <div class="blog-thumb">
+                        <a href="{{ service.url }}">
+                          <img class="img-fluid" src="{{ service.image }}" alt="{{ service.title }}"/>
+                        </a>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="{{service.url}}">{{service.title}}</a>
+                        </h2>
                     <p>{{ service.description }}</p>
-                  </div>
-                  <a href="{{service.url}}#content">Read More</a>
+                    </div>
+                    <div class="link-box home-blog-link">
+                        <a href="{{service.url}}">Read More</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </section>
