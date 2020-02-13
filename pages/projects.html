@@ -19,7 +19,7 @@ header_image: "/assets/img/bg/projects.jpg"
     </div>
     <div class="row">
         <div class="col-lg-12 text-center ">
-            <div class="portfolio-menu mb-55">
+            <div class="portfolio-menu">
                 <button class="active" data-filter="*">all</button>
                 {% for category in site.data.projects.categories %}
                   <button class="portfolio-item" data-filter=".{{category.ident}}">{{category.name}}</button>
@@ -28,16 +28,18 @@ header_image: "/assets/img/bg/projects.jpg"
         </div>
     </div>
     {% for project in site.data.projects.samples %}
-      <div class="row portfolio-active mt-30">
-        <div class="col-xl-12 col-lg-12 col-md-12 grid-item mb-30 {{project.categories}}">
-          <h4><a href="{{project.website}}" target="blank">{{project.title}}</a></h4>
+      <a name="{{ project.identifier }}"></a>
+      <div class="row portfolio-active">
+        <div class="col-xl-12 col-lg-12 col-md-12 grid-item mt-80 {{project.categories}}">
+          <h4>{{project.title}}</h4>
+          <p><a href="{{project.website}}" target="blank">{{ project.website }}</a></p>
           <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-12 mb-20">
+            <div class="col-xl-4 col-lg-4 col-md-12 mb-50">
               <a href="{{project.image}}" class="view">
                 <img src="{{project.thumb}}" class="img-fluid" alt="{{project.title}}">
               </i></a>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 mb-20">
+            <div class="col-xl-4 col-lg-4 col-md-12 mb-50">
               <h5>Project Requirements</h4>
               {% if project.briefing %}
                 <ul>
@@ -47,7 +49,7 @@ header_image: "/assets/img/bg/projects.jpg"
                 </ul>
               {% endif %}
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 mb-20">
+            <div class="col-xl-4 col-lg-4 col-md-12 mb-50">
               <h5>Why MediaStore ?</h4>
               {% if project.why_media_store %}
                 <ul>

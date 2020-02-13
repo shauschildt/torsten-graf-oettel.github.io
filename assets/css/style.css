@@ -1052,12 +1052,16 @@ label {
 }
 
 /* 8. Portfolio */
-.portfolio-area .portfolio-active {
+.portfolio-area .grid-item {
   border-bottom: 1px solid black;  
 }
 
 .portfolio-area h4 {
-  line-height: 200%;
+  margin-bottom: 0;
+}
+
+.portfolio-area a {
+	color: #ff343c;
 }
 
 .portfolio-area ul {
@@ -1067,7 +1071,7 @@ label {
 	list-style: square;
 }
 .portfolio-menu {
-	line-height: 1;
+	line-height: 1.5;
 }
 .portfolio-wrapper {
 	position: relative;

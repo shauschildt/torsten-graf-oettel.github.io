@@ -1,4 +1,5 @@
-- title: NBCUniveral Passport
+- title: NBCUniversal Passport
+  identifier: nbcupassport
   description: Online catalogue and assets distribution
   categories: online-catalogue asset-distribution audio-casting
   website: https://nbcupassport.com
@@ -17,13 +18,15 @@
     - Reliable API-based ingress of metadata, assets and license data from external systems
 
 - title: Lionsgate LGTV
+  identifier: lgtv
   description: Online catalogue and video screening
   categories: online-catalogue video-screening
   website: https://www.lgtv.lionsgate.com
   thumb: /assets/img/portfolio/lionsgate_thumb.png
   image: /assets/img/portfolio/lionsgate.png
 
-- title: Fremantle
+- title: Fremantle Screenings
+  identifier: fmscreenings
   description: Online catalogue, video screening and content marketing
   categories: online-catalogue video-screening content-marketing
   website: https://www.fmscreenings.com
@@ -43,6 +46,7 @@
     - Campaign management and marketing data support
       
 - title: MGM LionsDen
+  identifier: lionsden
   description: Online catalogue, video screening, and assets distribution
   categories: online-catalogue video-screening asset-distribution
   website: https://www.mgmlionsden.com/
@@ -50,6 +54,7 @@
   image: /assets/img/portfolio/mgm.png
 
 - title: eOne International Distribution
+  identifier: eone
   description: Online catalogue, video screening, and content marketing
   categories: online-catalogue video-screening content-marketing
   website: https://www.international.eonetv.com
@@ -67,6 +72,7 @@
     - Screening recommendation links can be sent directly from MediaStore or incorporated into external email communication
 
 - title: Louis Armstrong House Museum
+  identifier: lahm
   description: Online catalogue, audio casting, assets acquisition and assets distribution
   categories: online-catalogue audio-casting asset-acquisition asset-distribution
   website: https://collections.louisarmstronghouse.org
@@ -74,6 +80,7 @@
   image: /assets/img/portfolio/lahm.png
 
 - title: France Television Distribution
+  identifier: ftd
   description: Online catalogue, video screening, content marketing and assets distribution
   categories: online-catalogue video-screening content-marketing asset-distribution
   website: https://sales.francetvdistribution.fr
@@ -91,6 +98,7 @@
     - Comprehensive layout tweaks on client site with little cost footprint
 
 - title: Red Arrow Studios
+  identifier: rasi
   description: Online catalogue, video screening, content marketing and assets distribution
   categories: online-catalogue video-screening content-marketing asset-distribution
   website: https://screening.redarrowstudios.com
@@ -108,6 +116,7 @@
     - Comprehensive public catalog with easily imposed access restrictions for sensitive titles and videos
   
 - title: Dymanic Television
+  identifier: dtv
   description: Online catalogue, video screening, and assets distribution
   categories: online-catalogue video-screening asset-distribution
   website: https://www.dynamictelevision.com
