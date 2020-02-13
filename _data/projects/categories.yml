@@ -6,3 +6,7 @@
   name: asset distribution
 - ident: online-catalogue
   name: online catalogue
+- ident: audio-casting
+  name: audio casting
+- ident: asset-acquisition
+  name: asset acquisition 

@@ -65,7 +65,7 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-	color: #2B96CC;
+	color: #ff343c;
 	text-decoration: none;
 }
 a,
@@ -1052,6 +1052,12 @@ label {
 }
 
 /* 8. Portfolio */
+.portfolio-area ul {
+  margin-left: 20px;
+}
+.portfolio-area li {
+	list-style: square;
+}
 .portfolio-menu {
 	line-height: 1;
 }

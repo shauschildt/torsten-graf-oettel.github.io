@@ -1,42 +1,115 @@
-- title: Fremantle
-  description: Online catalogue, video screening and content marketing
-  categories: online-catalogue video-screening content-marketing
-  website: https://www.fmscreenings.com
-  thumb: /assets/img/portfolio/fremantle_thumb.png
-  image: /assets/img/portfolio/fremantle.png
 - title: NBCUniveral Passport
   description: Online catalogue and assets distribution
-  categories: online-catalogue asset-distribution
+  categories: online-catalogue asset-distribution audio-casting
   website: https://nbcupassport.com
   thumb: /assets/img/portfolio/nbcupassport_thumb.jpg
   image: /assets/img/portfolio/nbcupassport.jpg
+  briefing:
+    - Fundamental restructuring of asset servicing business
+    - Consolidation of metadata and assets from multiple disparate systems
+    - Integration of licensing data and automated access provisioning
+    - High influx of new metadata and assets
+  why_media_store:
+    - Flexible infrastructure and meta-models
+    - Scalable storage and capacity for high-volume throughput
+    - Separation of client base into sales-oriented business units with bespoke browsing experience
+    - Highly involved support and consultation on further system extensions and custom developments
+    - Reliable API-based ingress of metadata, assets and license data from external systems
+
 - title: Lionsgate LGTV
   description: Online catalogue and video screening
   categories: online-catalogue video-screening
   website: https://www.lgtv.lionsgate.com
   thumb: /assets/img/portfolio/lionsgate_thumb.png
   image: /assets/img/portfolio/lionsgate.png
+
+- title: Fremantle
+  description: Online catalogue, video screening and content marketing
+  categories: online-catalogue video-screening content-marketing
+  website: https://www.fmscreenings.com
+  thumb: /assets/img/portfolio/fremantle_thumb.png
+  image: /assets/img/portfolio/fremantle.png
+  briefing:
+    - Time to market <3 months
+    - Content migration from MediaStore 1.0 incl. (re)transcoding of all videos
+    - Integration of external corporate news feed
+    - Highly responsible site with adaption to various desktop and mobile screen sizes
+  why_media_store:
+    - Excellent experience with service
+    - API based distributed system with future proof extensibility
+    - Asset self-service for clients supported
+    - Advanced analytics and reporting features
+    - iOS app for off-line viewing and selling
+    - Campaign management and marketing data support
+      
+- title: MGM LionsDen
+  description: Online catalogue, video screening, and assets distribution
+  categories: online-catalogue video-screening asset-distribution
+  website: https://www.mgmlionsden.com/
+  thumb: /assets/img/portfolio/mgm_thumb.png
+  image: /assets/img/portfolio/mgm.png
+
 - title: eOne International Distribution
   description: Online catalogue, video screening, and content marketing
   categories: online-catalogue video-screening content-marketing
   website: https://www.international.eonetv.com
   thumb: /assets/img/portfolio/entertainment-one_thumb.png
   image: /assets/img/portfolio/entertainment-one.png
+  briefing:
+    - Replacement of previous generic MediaStore 1.0 site with a fresh design
+    - Migration of all content, assets and users (including passwords) for a seamless continuation
+    - Incorporation of various design additions and tweaks to MediaStore's standard design
+  why_media_store:
+    - Long-time customer with heavy MediaStore usage for sales & marketing
+    - MediaStore 2.0's readymade standard design offers a state-of-the-art responsive design which can be customized with few tweaks
+    - Design add-ons (e.g. custom landing page layout) as well as new features (news feed) could be added easily
+    - MediaStore 2.0 shortens a content buyer's pathway to screen their desired content as much as feasible
+    - Screening recommendation links can be sent directly from MediaStore or incorporated into external email communication
+
+- title: Louis Armstrong House Museum
+  description: Online catalogue, audio casting, assets acquisition and assets distribution
+  categories: online-catalogue audio-casting asset-acquisition asset-distribution
+  website: https://collections.louisarmstronghouse.org
+  thumb: /assets/img/portfolio/lahm_thumb.png
+  image: /assets/img/portfolio/lahm.png
+
 - title: France Television Distribution
   description: Online catalogue, video screening, content marketing and assets distribution
   categories: online-catalogue video-screening content-marketing asset-distribution
   website: https://sales.francetvdistribution.fr
   thumb: /assets/img/portfolio/france-tv_thumb.png
   image: /assets/img/portfolio/france-tv.png
+  briefing:
+    - Replacement of older non-responsive catalog and screening platform
+    - Low-cost customization of an existing generic design
+    - Custom add-ons such as a custom client-facing dashboard page and modified screening packages
+  why_media_store:
+    - Competitive implementation cost and monthly fee
+    - Highly involved personal support during implementation and day-to-day usage
+    - In-depth consulting on further features with sales & marketing team during a post-launch fine-tuning stage
+    - Flexible internal user roles including a newly commissioned Sales Agent role with restricted admin site access
+    - Comprehensive layout tweaks on client site with little cost footprint
+
 - title: Red Arrow Studios
   description: Online catalogue, video screening, content marketing and assets distribution
   categories: online-catalogue video-screening content-marketing asset-distribution
   website: https://screening.redarrowstudios.com
   thumb: /assets/img/portfolio/red-arrow_thumb.png
   image: /assets/img/portfolio/red-arrow.png
-# - title: Dymanic Television
-#   description: Online catalogue, video screening, and assets distribution
-#   categories: online-catalogue video-screening asset-distribution
-#   website: https://www.dynamictelevision.com
-#   thumb: /assets/img/portfolio/dynamic-television_thumb.png
-#   image: /assets/img/portfolio/dynamic-television.png
+  briefing:
+    - Upgrade existing MediaStore 1.0 platform with a new design matching the corporate identity
+    - Access to extended analytics for further in-house processing
+    - GDPR-compliant registration and tracking of client users
+  why_media_store:
+    - MediaStore already established with sales & marketing team as a for catalog site and tool for targeted screening links
+    - Flexible modification of metadata models to display custom information to clients
+    - Time- and money-saving approximation of RASI's CI by adding corporate font and minor custom elements to existing standard design
+    - Ready-to-go mobile screening app for markets and meetings
+    - Comprehensive public catalog with easily imposed access restrictions for sensitive titles and videos
+  
+- title: Dymanic Television
+  description: Online catalogue, video screening, and assets distribution
+  categories: online-catalogue video-screening asset-distribution
+  website: https://www.dynamictelevision.com
+  thumb: /assets/img/portfolio/dynamic-television_thumb.png
+  image: /assets/img/portfolio/dynamic-television.png
