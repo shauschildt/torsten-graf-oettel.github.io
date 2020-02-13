@@ -1052,6 +1052,14 @@ label {
 }
 
 /* 8. Portfolio */
+.portfolio-area .portfolio-active {
+  border-bottom: 1px solid black;  
+}
+
+.portfolio-area h4 {
+  line-height: 200%;
+}
+
 .portfolio-area ul {
   margin-left: 20px;
 }
