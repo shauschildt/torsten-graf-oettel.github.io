@@ -1,0 +1,12 @@
+- ident: marketing
+  name: content marketing
+- ident: catalogue
+  name: online catalogue
+- ident: video
+  name: video screening
+- ident: audio
+  name: audio casting
+- ident: acquisition
+  name: self-service acquisition 
+- ident: distribution
+  name: asset distribution

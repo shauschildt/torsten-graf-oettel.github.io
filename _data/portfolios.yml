@@ -1,16 +1,16 @@
 - title: NBCUniversal Passport
   identifier: nbcupassport
-  description: Online catalogue and assets distribution
-  categories: online-catalogue asset-distribution audio-casting
+  description: Online catalogue, video screening, audio broadcasting and assets distribution
+  categories: catalogue video audio distribution
   website: https://nbcupassport.com
   thumb: /assets/img/portfolio/nbcupassport_thumb.jpg
   image: /assets/img/portfolio/nbcupassport.jpg
-  briefing:
+  what:
     - Fundamental restructuring of asset servicing business
     - Consolidation of metadata and assets from multiple disparate systems
     - Integration of licensing data and automated access provisioning
     - High influx of new metadata and assets
-  why_media_store:
+  why:
     - Flexible infrastructure and meta-models
     - Scalable storage and capacity for high-volume throughput
     - Separation of client base into sales-oriented business units with bespoke browsing experience
@@ -19,25 +19,36 @@
 
 - title: Lionsgate LGTV
   identifier: lgtv
-  description: Online catalogue and video screening
-  categories: online-catalogue video-screening
+  description: Online catalogue, content marketing and video screening
+  categories: catalogue marketing video
   website: https://www.lgtv.lionsgate.com
   thumb: /assets/img/portfolio/lionsgate_thumb.png
   image: /assets/img/portfolio/lionsgate.png
+  what:
+    - Carryover of existing custom design from MediaStore 1.0 to 2.0
+    - Custom extensions such as back-and-forth switching between admin and client site
+    - Synchronization with external content database for automated metadata creation and update
+  why:
+    - Positive experience over years of running on MediaStore 1.0
+    - Easy-to-use toolbox of sales functionality for sales team
+    - Glossy one-stop show pages with filtering for e.g. video type or season
+    - Full lockdown of catalog without any publicly reachable content
+    - Assignment of dedicated sales representative to each client
+    - Pull-based metadata sync workflow maps existing external metadata format into MediaStore
 
 - title: Fremantle Screenings
   identifier: fmscreenings
-  description: Online catalogue, video screening and content marketing
-  categories: online-catalogue video-screening content-marketing
+  description: Online catalogue, content marketing and video screening
+  categories: catalogue video marketing
   website: https://www.fmscreenings.com
   thumb: /assets/img/portfolio/fremantle_thumb.png
   image: /assets/img/portfolio/fremantle.png
-  briefing:
+  what:
     - Time to market <3 months
     - Content migration from MediaStore 1.0 incl. (re)transcoding of all videos
     - Integration of external corporate news feed
     - Highly responsible site with adaption to various desktop and mobile screen sizes
-  why_media_store:
+  why:
     - Excellent experience with service
     - API based distributed system with future proof extensibility
     - Asset self-service for clients supported
@@ -47,24 +58,34 @@
       
 - title: MGM LionsDen
   identifier: lionsden
-  description: Online catalogue, video screening, and assets distribution
-  categories: online-catalogue video-screening asset-distribution
+  description: Online catalogue, content marketing, video screening and asset distribution
+  categories: catalogue video distribution
   website: https://www.mgmlionsden.com/
   thumb: /assets/img/portfolio/mgm_thumb.png
   image: /assets/img/portfolio/mgm.png
+  what:
+    - Provide a single destination for content sales & marketing as well as post-sales fulfilment
+    - Ingest a large initial stock of videos, images and ancillary assets from various source
+    - Implement a fully custom visual branding
+  why:
+    - Hassle-free day-to-day management of content catalog and assets
+    - Sleek client-facing site with effortless self-service asset download
+    - Easily configurable instant screening links for exclusive watermarked pre-release screenings
+    - Exclusive asset access links with bulk download for active licensees
+    - Analytics tracking on key client activities such as page views and screening durations
 
 - title: eOne International Distribution
   identifier: eone
-  description: Online catalogue, video screening, and content marketing
-  categories: online-catalogue video-screening content-marketing
+  description: Online catalogue, video screening and content marketing
+  categories: catalogue video marketing
   website: https://www.international.eonetv.com
   thumb: /assets/img/portfolio/entertainment-one_thumb.png
   image: /assets/img/portfolio/entertainment-one.png
-  briefing:
+  what:
     - Replacement of previous generic MediaStore 1.0 site with a fresh design
     - Migration of all content, assets and users (including passwords) for a seamless continuation
     - Incorporation of various design additions and tweaks to MediaStore's standard design
-  why_media_store:
+  why:
     - Long-time customer with heavy MediaStore usage for sales & marketing
     - MediaStore 2.0's readymade standard design offers a state-of-the-art responsive design which can be customized with few tweaks
     - Design add-ons (e.g. custom landing page layout) as well as new features (news feed) could be added easily
@@ -73,24 +94,36 @@
 
 - title: Louis Armstrong House Museum
   identifier: lahm
-  description: Online catalogue, audio casting, assets acquisition and assets distribution
-  categories: online-catalogue audio-casting asset-acquisition asset-distribution
+  description: Online catalogue, audio broadcasting, asset acquisition and asset distribution
+  categories: catalogue audio acquisition distribution
   website: https://collections.louisarmstronghouse.org
   thumb: /assets/img/portfolio/lahm_thumb.png
   image: /assets/img/portfolio/lahm.png
+  what:
+    - First-time digitization and consolidation of entire digital and physical asset catalog
+    - Custom-styled client site with in-depth asset browsing and filtering
+    - Straightforward license request workflow and processing of payments
+    - Usage as one-stop in-house asset research tool
+  why:
+    - Highly scalable asset storage and instant preview for most asset types, including video, audio and PDF
+    - Custom specialized metadata schema and structuring of assets into discrete collections
+    - Client site layout implemented from scratch to match Louis Armstrong House's visual identity
+    - Public preview database and extended logged-in client area with user-driven folders and baskets
+    - CMS-style management of asset highlights and collections
+    - Shopping cart style license ordering process with built-in validation and payment processing
 
 - title: France Television Distribution
   identifier: ftd
-  description: Online catalogue, video screening, content marketing and assets distribution
-  categories: online-catalogue video-screening content-marketing asset-distribution
+  description: Online catalogue, video screening and content marketing
+  categories: catalogue video marketing distribution
   website: https://sales.francetvdistribution.fr
   thumb: /assets/img/portfolio/france-tv_thumb.png
   image: /assets/img/portfolio/france-tv.png
-  briefing:
+  what:
     - Replacement of older non-responsive catalog and screening platform
     - Low-cost customization of an existing generic design
     - Custom add-ons such as a custom client-facing dashboard page and modified screening packages
-  why_media_store:
+  why:
     - Competitive implementation cost and monthly fee
     - Highly involved personal support during implementation and day-to-day usage
     - In-depth consulting on further features with sales & marketing team during a post-launch fine-tuning stage
@@ -99,16 +132,16 @@
 
 - title: Red Arrow Studios
   identifier: rasi
-  description: Online catalogue, video screening, content marketing and assets distribution
-  categories: online-catalogue video-screening content-marketing asset-distribution
+  description: Online catalogue, video screening, content marketing and asset distribution
+  categories: catalogue video marketing distribution
   website: https://screening.redarrowstudios.com
   thumb: /assets/img/portfolio/red-arrow_thumb.png
   image: /assets/img/portfolio/red-arrow.png
-  briefing:
+  what:
     - Upgrade existing MediaStore 1.0 platform with a new design matching the corporate identity
     - Access to extended analytics for further in-house processing
     - GDPR-compliant registration and tracking of client users
-  why_media_store:
+  why:
     - MediaStore already established with sales & marketing team as a for catalog site and tool for targeted screening links
     - Flexible modification of metadata models to display custom information to clients
     - Time- and money-saving approximation of RASI's CI by adding corporate font and minor custom elements to existing standard design
@@ -117,8 +150,18 @@
   
 - title: Dymanic Television
   identifier: dtv
-  description: Online catalogue, video screening, and assets distribution
-  categories: online-catalogue video-screening asset-distribution
+  description: Online catalogue, video screening and assets distribution
+  categories: catalogue video distribution
   website: https://www.dynamictelevision.com
   thumb: /assets/img/portfolio/dynamic-television_thumb.png
   image: /assets/img/portfolio/dynamic-television.png
+  what:
+    - Scalable, easy-to-use screening website for growing sales & distribution business
+    - Storage and delivery of high-resolution audiovisual master files
+    - Adaptation of corporate identify without excessive overhead costs
+  why:
+    - Easy on-boarding of content and assets
+    - Public catalog and access restriction to full-length screeners for logged-in clients
+    - Easily manageable Press section, Contact page and hero slider
+    - Competitive all-inclusive cost package
+    - Secure storage and delivery of high-resolution materials

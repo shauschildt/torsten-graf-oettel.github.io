@@ -14,14 +14,14 @@
         <div class="col-lg-12 text-center ">
             <div class="portfolio-menu mb-55">
                 <button class="active" data-filter="*">all</button>
-                {% for category in site.data.projects.categories %}
+                {% for category in site.data.project-categories %}
                   <button class="portfolio-item" data-filter=".{{category.ident}}">{{category.name}}</button>
                 {% endfor %}
             </div>
         </div>
     </div>
     <div class="row portfolio-active">
-      {% for project in site.data.projects.samples %}
+      {% for project in site.data.portfolios %}
         <div class="col-xl-4 col-lg-4 col-md-6 mb-30 grid-item {{project.categories}}">
             <div class="portfolio-wrapper">
                 <div class="portfolio-thumb portfolio-popup">
