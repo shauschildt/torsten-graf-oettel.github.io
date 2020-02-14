@@ -1052,15 +1052,15 @@ label {
 }
 
 /* 8. Portfolio */
-.portfolio-area .grid-item {
+.portfolio-area.portfolio-page .grid-item {
   border-bottom: 1px solid black;  
 }
 
-.portfolio-area h4 {
+.portfolio-area.portfolio-page h4 {
   margin-bottom: 0;
 }
 
-.portfolio-area a {
+.portfolio-area.portfolio-page a {
 	color: #ff343c;
 }
 
